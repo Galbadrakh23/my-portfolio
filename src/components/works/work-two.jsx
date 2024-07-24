@@ -2,7 +2,7 @@ import Technologies from "./technologies";
 import { MdOutlineOpenInNew } from "react-icons/md";
 const WorkTwo = () => {
   return (
-    <section className="flex flex-row bg-#fffff bg-gray-50 border-black-500 rounded-lg border-2">
+    <section className="flex flex-row bg-#fffff bg-gray-50 border-black-500 rounded-lg shadow-xl border-2">
       <div>
         <div className="px-12 pt-12">
           <h1>Mentor</h1>

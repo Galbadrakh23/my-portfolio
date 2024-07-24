@@ -15,7 +15,7 @@ const ExperienceBox = ({ experience }) => {
             ))}
           </div>
         </div>
-        <span className="text-gray-500 w-[146px]">{experience.period}</span>
+        <span className="text-gray-500 w-[160px]">{experience.Date}</span>
       </div>
     </div>
   );

@@ -3,7 +3,7 @@ import { MdOutlineOpenInNew } from "react-icons/md";
 
 const WorkThree = () => {
   return (
-    <section className="flex flex-row bg-#fffff bg-gray-50 border-black-500 border-2 rounded-lg">
+    <section className="flex flex-row bg-#fffff bg-gray-50 border-black-500 border-2 shadow-xl rounded-lg">
       <div className="bg-gray-100">
         <img src="/images/itoim.svg" alt="itoim" className="px-12 py-12" />
       </div>

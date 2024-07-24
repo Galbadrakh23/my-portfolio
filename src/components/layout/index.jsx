@@ -4,6 +4,8 @@ import HeroSection from "../hero/herosection";
 import Skills from "../skills/skills";
 import Experience from "../experience/experience";
 import Works from "../works/works";
+import Contact from "../contact/contact";
+import Footer from "../footer/footer";
 
 const Layout = ({ children }) => {
   return (
@@ -14,6 +16,8 @@ const Layout = ({ children }) => {
       <Skills />
       <Experience />
       <Works />
+      <Contact />
+      <Footer />
       {children}
     </>
   );
