@@ -8,11 +8,13 @@ const ExperienceBox = ({ experience }) => {
         <div>
           <h2 className="text-xl font-bold text-center">{experience.title}</h2>
           <div className="mt-2 text-gray-500">
-            {experience.description.map((item, index) => (
-              <p key={index} className="mt-1">
-                {item}
-              </p>
-            ))}
+            <ul className="list-disc">
+              {experience.description.map((item, index) => (
+                <li key={index} className="mt-1">
+                  {item}
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
         <span className="text-gray-500 w-[160px]">{experience.Date}</span>

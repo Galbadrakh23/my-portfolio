@@ -1,8 +1,7 @@
 import { CiMail } from "react-icons/ci";
 import { IoCopyOutline } from "react-icons/io5";
 import { FaPhoneAlt } from "react-icons/fa";
-import { FiGithub } from "react-icons/fi";
-import { FiTwitter } from "react-icons/fi";
+import { FiGithub, FiTwitter } from "react-icons/fi";
 import { FaFigma } from "react-icons/fa";
 
 const ContactButton = () => {
@@ -22,7 +21,7 @@ const ContactButton = () => {
         <p className="text-gray-900 text-3xl font-semibold">
           24LP2430@nest.edu.mn
         </p>
-        <IoCopyOutline />
+        <IoCopyOutline size={20} />
       </div>
       <div className="flex flex-row items-center gap-5">
         <FaPhoneAlt />
