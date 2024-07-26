@@ -5,7 +5,7 @@ const SkillsButton = () => {
     <div className="container flex flex-col justify-center items-center">
       <Label text={"Skills"} />
       <div>
-        <p className="font-normal mt-2 text-gray-600 text-xl">
+        <p className="text-center  font-normal mt-2 text-gray-600 text-xl">
           The skills, tools and technologies I am really good at:
         </p>
       </div>

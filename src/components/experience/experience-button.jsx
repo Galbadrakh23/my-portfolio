@@ -1,10 +1,10 @@
 import Label from "../label";
 const ExperienceButton = () => {
   return (
-    <div className="container flex flex-col justify-center items-center">
+    <div className="flex flex-col justify-center items-center">
       <Label text={"Experience"} />
       <div>
-        <p className="font-normal mt-2 text-gray-600 text-xl mb-12">
+        <p className="font-normal mt-2 text-gray-600 text-xl text-center mb-12">
           Here is a quick summary of my most recent experiences:{" "}
         </p>
       </div>

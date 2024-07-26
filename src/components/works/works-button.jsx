@@ -5,7 +5,7 @@ const WorksButton = () => {
         Work
       </button>
       <div>
-        <p className="font-normal mt-2 text-gray-600 text-xl mb-12">
+        <p className=" text-center font-thin mt-2 text-gray-600 text-xl mb-12">
           Some of the noteworthy projects I have built:{" "}
         </p>
       </div>

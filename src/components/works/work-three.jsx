@@ -3,13 +3,13 @@ import { MdOutlineOpenInNew } from "react-icons/md";
 
 const WorkThree = () => {
   return (
-    <section className="flex flex-row bg-#fffff bg-gray-50 border-black-500 border-2 shadow-xl rounded-lg">
+    <section className="flex flex-col md:flex-row bg-gray-50 border-black-500 border-2 shadow-xl rounded-lg">
       <div className="bg-gray-100">
         <img src="/images/itoim.svg" alt="itoim" className="px-12 py-12" />
       </div>
       <div>
         <div className="px-12 pt-12">
-          <h1>Ub Cab</h1>
+          <h1>iToim</h1>
         </div>
         <div className="w-[480px] px-12 pt-6">
           <p className="text-gray-600 font-normal">
@@ -21,7 +21,7 @@ const WorkThree = () => {
         <div className="px-12 pt-6">
           <Technologies />
         </div>
-        <div className="px-12 pt-6">
+        <div className="px-14 py-6">
           <MdOutlineOpenInNew />
           <a href="https://www.itoim.mn/"></a>
         </div>

@@ -6,8 +6,8 @@ import { FaFigma } from "react-icons/fa";
 
 const ColumnLeft = () => {
   return (
-    <div className="text-center lg:text-left lg:flex-1 max-w-2xl ">
-      <h1 className="text-6xl font-bold mb-4">
+    <div className="text-left md:flex-1 max-w-2xl ">
+      <h1 className="text-3xl font-semibold mb-4 md:text-4xl">
         Hi, I’m Home{" "}
         <span role="img" aria-label="waving hand">
           👋
@@ -20,28 +20,22 @@ const ColumnLeft = () => {
         years of experience in web development, I continue to find joy in
         crafting innovative solutions and designs.
       </p>
-      <div className="flex items-center justify-center lg:justify-start space-x-2 mb-4">
+      <div className="flex items-center justify-start space-x-2 mb-4">
         <IoLocationOutline />
         <span className="text-gray-700 font-thin">Ulaanbaatar, Mongolia</span>
       </div>
-      <div className="flex items-center justify-center lg:justify-start space-x-2 mb-4">
+      <div className="flex items-center justify-start space-x-2 mb-4">
         <GoDotFill className="text-green-500" />
         <span className="text-gray-700 font-thin">
           Available for new projects
         </span>
       </div>
       <div>
-        <ul className="flex flex-row gap-3 mt-10">
-          <li>
-            <FiGithub />
-          </li>
-          <li>
-            <FiTwitter />
-          </li>
-          <li>
-            <FaFigma />
-          </li>
-        </ul>
+        <div className="flex flex-row gap-3 mt-10">
+          <FiGithub />
+          <FiTwitter />
+          <FaFigma />
+        </div>
       </div>
     </div>
   );

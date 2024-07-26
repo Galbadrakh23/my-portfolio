@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import Button from "./buttons";
+import Button from "../../buttons";
 
 const technologies = [
   "React",
