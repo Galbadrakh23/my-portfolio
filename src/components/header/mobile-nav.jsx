@@ -12,7 +12,7 @@ const MobileNav = () => {
   return (
     <div>
       <button onClick={toggleMenu}>
-        <FiMenu size={24} className="md:hidden" />
+        <FiMenu size={24} className="sm:hidden" />
       </button>
       {isOpen && <MobileMenu />}
     </div>

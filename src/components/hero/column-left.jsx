@@ -13,7 +13,7 @@ const ColumnLeft = () => {
           👋
         </span>
       </h1>
-      <p className="text-gray-700  font-extralight mb-6">
+      <p className="text-gray-700  font-normal mb-6 dark:text-white">
         I specialize in full stack development, particularly with React.js and
         Node.js. My main goal is to create exceptional digital experiences that
         are fast, visually appealing, and accessible to everyone. With over 7
