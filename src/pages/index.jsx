@@ -1,4 +1,5 @@
-import About from "@/components/about/about";
+// import About from "@/components/about/about";
+import About from "@/components/about";
 import Contact from "@/components/contact/contact";
 import Experience from "@/components/experience/experience";
 import HeroSection from "@/components/hero/herosection";
