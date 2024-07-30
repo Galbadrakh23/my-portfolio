@@ -1,6 +1,6 @@
 // App.js
 import React from "react";
-import Button from "../../buttons";
+import Button from "../buttons";
 
 const technologies = [
   "React",
@@ -17,7 +17,7 @@ const technologies = [
 
 const Technologies = () => {
   return (
-    <div className="w-[480px]">
+    <div className="w-[400px]">
       {technologies.map((tech, index) => (
         <Button key={index} label={tech} />
       ))}

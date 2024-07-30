@@ -3,7 +3,7 @@ import ExperienceBox from "./experience-card-box";
 const experiences = [
   {
     title: "Sr. Frontend Developer",
-    companyLogo: "/images/boys/svg",
+    companyLogo: "/images/toyota.png",
     Date: "Nov 2021 - Present",
     description: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
@@ -14,7 +14,7 @@ const experiences = [
   },
   {
     title: "Team Lead",
-    companyLogo: "/images/boys/svg",
+    companyLogo: "/images/ard.png",
     Date: "Jul 2017 - Oct 2021",
     description: [
       "Sed quis justo ac magna.",
@@ -25,7 +25,7 @@ const experiences = [
   },
   {
     title: "Full Stack Developer",
-    companyLogo: "/images/boys/svg",
+    companyLogo: "/images/toyota.png",
     Date: "Dec 2015 - May 2017",
     description: [
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",

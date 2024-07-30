@@ -7,7 +7,7 @@ const AboutContent = () => {
       <div className="flex-1 mt-6">
         <img src="./images/Koala.webp" alt="Random Photo" />
       </div>
-      <div className="flex-1 mt-6 text-center md:ml-8 md:mt-0 md:text-left">
+      <div className="flex-1 mt-6 text-left md:ml-8 md:mt-0 md:text-left">
         <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
           Curious about me? Here you have it:
         </h1>

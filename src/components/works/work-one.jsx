@@ -20,7 +20,7 @@ const WorkOne = () => {
         <div className="px-12 pt-6">
           <Technologies />
         </div>
-        <div className="px-12 pt-6">
+        <div className="px-14 pt-6">
           <MdOutlineOpenInNew />
           <a href="https://www.ubcab.com/"></a>
         </div>
