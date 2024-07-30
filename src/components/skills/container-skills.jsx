@@ -4,7 +4,7 @@ import SkillRow2 from "./skill-logo-row-2";
 
 const ContainerSkills = () => {
   return (
-    <section className="px-[80px] py-[96px]  flex flex-col items-center justify-center bg-#fffff">
+    <section className="px-[80px] py-[96px]  flex flex-col items-center justify-center">
       <SkillsButton />
       <SkillRow />
       <SkillRow2 />

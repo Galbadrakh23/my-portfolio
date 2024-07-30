@@ -16,7 +16,7 @@ const NavButtons = () => {
           <MdOutlineLightMode className="hover:cursor-pointer" />
         )}
       </button>
-      <button className="py-[6px] px-4 bg-black text-white dark:bg-white rounded-xl">
+      <button className="py-[6px] px-4 bg-black text-white dark:bg-white dark:text-black rounded-xl">
         Download CV
       </button>
     </div>

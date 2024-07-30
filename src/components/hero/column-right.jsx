@@ -6,9 +6,9 @@ const ColumnRight = () => {
         height={320}
         src="/images/Koala.webp"
         alt="Random Picture"
-        className="rounded-lg shadow-lg absolute z-10 border-white border-8"
+        className="rounded-lg shadow-lg absolute border-white border-8"
       />
-      <div className="w-[290px] h-[380px] bg-gray-200 border-white border-8 z-0 ml-4 mt-0.25"></div>
+      <div className="w-[280px] h-[380px] md:w-[290px] md:h-[380px] bg-gray-200 border-white border-8 md:ml-4 md:mt-4"></div>
     </div>
   );
 };

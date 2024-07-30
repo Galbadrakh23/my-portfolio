@@ -7,7 +7,7 @@ const ContainerWork = () => {
   return (
     <section
       id="Works"
-      className="px-[80px] py-[96px] flex flex-col gap-12 items-center justify-center bg-#fffff"
+      className="px-[80px] py-[96px] flex flex-col gap-12 items-center justify-center dark:bg-[#27374D]"
     >
       <WorksButton />
       <WorkOne />

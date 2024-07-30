@@ -5,7 +5,10 @@ const FooterButton = () => {
   return (
     <div className="flex flex-col justify-center items-center py-6 px-20">
       <div>
-        <p className="flex flex-row items-center gap-1 font-normal mt-2 text-gray-600 text-sm">
+        <p
+          className="flex flex-row items-center gap-1 font-normal mt-2 text-gray-600 text-sm
+        dark:text-[#EEEEEE]"
+        >
           <FaRegCopyright />
           2024 | Greetings with <FaHeart />
           from Ulaanbaatar{" "}

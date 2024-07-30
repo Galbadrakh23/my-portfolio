@@ -4,7 +4,7 @@ const ExperienceButton = () => {
     <div className="flex flex-col justify-center items-center">
       <Label text={"Experience"} />
       <div>
-        <p className="font-normal mt-2 text-gray-600 text-xl text-center mb-12">
+        <p className="font-thin mt-2 text-gray-600 text-xl text-center mb-12">
           Here is a quick summary of my most recent experiences:{" "}
         </p>
       </div>

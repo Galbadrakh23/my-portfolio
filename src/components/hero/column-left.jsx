@@ -13,7 +13,7 @@ const ColumnLeft = () => {
           👋
         </span>
       </h1>
-      <p className="text-gray-700  font-normal mb-6 dark:text-white">
+      <p className="text-gray-700  font-normal mb-6 dark:text-[#F8F8F2]">
         I specialize in full stack development, particularly with React.js and
         Node.js. My main goal is to create exceptional digital experiences that
         are fast, visually appealing, and accessible to everyone. With over 7
@@ -22,11 +22,13 @@ const ColumnLeft = () => {
       </p>
       <div className="flex items-center justify-start space-x-2 mb-4">
         <IoLocationOutline />
-        <span className="text-gray-700 font-thin">Ulaanbaatar, Mongolia</span>
+        <span className="text-gray-700 font-thin dark:text-[#EEEEEE]">
+          Ulaanbaatar, Mongolia
+        </span>
       </div>
       <div className="flex items-center justify-start space-x-2 mb-4">
         <GoDotFill className="text-green-500" />
-        <span className="text-gray-700 font-thin">
+        <span className="text-gray-700 font-thin dark:text-[#EEEEEE]">
           Available for new projects
         </span>
       </div>

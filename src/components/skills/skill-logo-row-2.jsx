@@ -22,7 +22,7 @@ const SkillRow2 = () => {
             alt={logo.alt}
             className="w-full h-full object-contain"
           />
-          <p className="text-center text-[18px] mt-2 text-gray-600 font-normal leading-7">
+          <p className="text-center text-[18px] mt-2 text-gray-600 dark:text-[#EEEEEE] font-normal leading-7">
             {logo.alt}
           </p>
         </div>
